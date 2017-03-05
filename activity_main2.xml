@@ -9,4 +9,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.gmail.sakthikavin.vera.Main2Activity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:id="@+id/textView"
+        android:layout_marginTop="23dp"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/textView2"
+        android:layout_marginEnd="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="everyone"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="73dp"
+        android:textSize="25dp" />
 </RelativeLayout>
