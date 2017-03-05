@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <Button
+    android:id="@+id/btnleader"
+    android:layout_width="346dp"
+    android:layout_height="wrap_content"
+    android:text="N.Rishivikram"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_blue_bright"
+        />
+    <Button
+        android:id="@+id/member2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="P.Sujith"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_green_light"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/member3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_red_light"
+        android:text="K.P.Hariananthan"
+        android:textColor="#5a1212"/>
+    <Button
+        android:id="@+id/member4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="S.S.Sakthi kavin"
+        android:textColor="#ffffff"/>
+</LinearLayout>
